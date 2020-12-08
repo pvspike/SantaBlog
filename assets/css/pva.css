@@ -1,0 +1,203 @@
+.pva-bg{
+    margin-top: 60px;
+    min-height: 200px;
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+}
+
+.nav-pva {
+	background: #212121;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	border-bottom: 3px solid #ff3300;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.nav-pva li a {
+	color: #fff;
+}
+
+.nav-pva .dropdown-menu {
+	background: #ff3300;
+}
+
+.nav-pva li a:hover {
+    color: #ffffff;
+    background: #ff3300!important;
+}
+.nav-pva .active {
+    color: #ffffff;
+    background: #ff3300!important;
+}
+
+.nav-pva .nav-link {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.nav-pva .navbar-brand {
+
+	color: #ff3300;
+	font-family: 'xmas', cursive;
+	padding-top: 17px;
+	padding-bottom: 17px;	
+	font-size: 30px;
+}
+.navbar-toggler {
+	color: #484848;
+	border-color: #484848;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(72, 72, 72, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#preloader  {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #212121;
+     z-index: 99999;
+     height: 100%;
+ }
+
+#status  {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     background-image: url(../images/santa.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+
+.footer{
+    color: white;
+    border-top: 8px solid crimson;
+    background-color: #c91d61;
+    background: linear-gradient(20deg,blue,crimson,purple); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+    -webkit-animation: changeColors 30s ease infinite;
+    -moz-animation: changeColors 30s ease infinite;
+    -o-animation: changeColors 30s ease infinite;
+    animation: changeColors 30s ease infinite;
+}
+
+@-webkit-keyframes changeColors {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
+
+.heading-box h2{ width:100%; color: red; }
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+
+@font-face {
+  font-family: xmas;
+  src: url(../fonts/MountainsofChristmas-Bold.ttf);
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    width: 11%;
+    margin-top: -3%;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
