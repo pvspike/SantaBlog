@@ -212,7 +212,7 @@ include 'header.php';
                <div class="media">
                   <img src="uploads/<?php if(!$Image) echo 'default.png'?><?php echo htmlentities($Image); ?>" class="d-block img-fluid align-self-start" width="90" height="94" alt="">
                   <div class="media-body ml-2">
-                     <a style="text-decoration:none;" href="post.php?id=<?php echo htmlentities($Id); ?>" target="_blank">
+                     <a style="text-decoration:none;" href="post.php?id=<?php echo htmlentities($Id); ?>">
                         <h6 class="lead"><?php echo htmlentities($Title); ?></h6>
                      </a>
                      <p class="small"><?php echo htmlentities($DateTime); ?></p>
