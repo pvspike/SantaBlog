@@ -10,3 +10,5 @@ Demo: https://christmas.endgame.ro/
 -Admin Panel for Santa
 
 Credits https://endgame.ro
+
+SantaBlog Documentation Install: https://endgame.ro/page/santablog-documentation/
